@@ -13,6 +13,12 @@ DEBUG=c2s:* npm start
 
 The service endpoints described below are available at http://localhost:3000.
 
+Validate it works with: 
+
+```bash
+curl http://localhost:3000/cats
+```
+
 ## API
 
 ### POST /cat
